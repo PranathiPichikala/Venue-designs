@@ -1,0 +1,339 @@
+@font-face {
+    font-family: 'objectivity'; /* Replace 'YourDesiredFont' with the actual font name */
+    src:       
+    url('../Fonts/objectivity/Objectivity-Medium.woff')    format('woff');
+    /* url('../Fonts/objectivity/Objectivity-Bold.woff') format('woff'), */
+     /* url('../Fonts/objectivity/Objectivity-Regular.eot') format('eot'); */
+         /* url('../Fonts/objectivity/objectivity-font.css') format('woff2'),
+        
+         /* url('../Fonts/objectivity/objectivity-font.css') format('css') ;  */
+       
+  }
+
+  html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    /* overflow: hidden; */
+  }
+  
+
+  .need-help-main{
+    font-family: Objectivity;
+  }
+  .submit{
+    background-color: #F9C623 !important; 
+    margin-bottom: 30px !important;
+    color: black !important;
+    text-transform: none !important;
+    margin: 24px 0 16px !important;
+    box-shadow: none !important;
+  }
+  .custom-username-textfield .MuiOutlinedInput-root.Mui-focused {
+    background-color: white;
+  }
+  .custom-textfield .MuiOutlinedInput-root.Mui-focused {
+    background-color: white;
+  }
+  .google{
+    background-color: 
+    #F2F2F2 !important;
+    color: black !important;
+    box-shadow: none !important;
+    border: 1px solid 
+    #2C79FF !important;
+    text-transform: none !important;
+  }
+  
+  .google:hover{
+    background-color: 
+    #F2F2F2 !important;
+  }
+  .loginlogin{
+    font-weight: bolder !important;
+  }
+  .loggedin button{
+    font-weight: bolder;
+    border: none;
+    color: #000;
+    text-transform: none;
+  }
+  .google-icon {
+    width: 20px; 
+    height: 20px;
+    margin-right: 8px; 
+  }
+  .custom-textfield .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+    border: 1px solid #15101F;
+  }
+  
+  .custom-textfield .MuiInputLabel-root.Mui-focused {
+    color: #15101F;
+  }
+  
+  .custom-username-textfield .MuiOutlinedInput-root:not(.Mui-focused) .MuiOutlinedInput-notchedOutline {
+    border-color: transparent;
+  }
+  .custom-textfield .MuiOutlinedInput-root:not(.Mui-focused) .MuiOutlinedInput-notchedOutline {
+    border-color: transparent;
+  }
+  .custom-username-textfield .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+    border: 1px solid #15101F;
+  }
+  .custom-username-textfield .MuiInputLabel-root.Mui-focused {
+    color: #15101F;
+  }
+  .custom-username-textfield .MuiIconButton-root:focus,
+  .custom-textfield .MuiIconButton-root:focus {
+    background-color: white !important;
+  }
+
+  .custom-textfield,.custom-username-textfield{
+    background-color: #e0e0e0 !important;
+    border-radius: 8px;
+  }
+  .registerr button{
+    border: none !important;
+    font-weight: bolder;
+    text-transform: none;
+    color: #000 !important;
+  }
+  .continue-with{
+    padding-bottom: 10px;
+  }
+  .dont-have{
+    padding-bottom: 10px;
+  }
+    .stay-signed-in-container {
+        display: flex;
+        align-items: center; 
+        justify-content: space-between;
+        padding-bottom: 10px;
+      }
+      .forgot-username button{
+        border: none !important;
+        color: #000!important;
+        text-transform: none;
+      }
+  .image{
+    display: flex;
+    flex-direction: column !important; 
+    justify-content: center; 
+    /* align-items:center ; */
+    background-color: #e6e6e6 !important;
+    padding: 40px;
+    padding-top: 60px !important;
+  }
+  .image img {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 70% !important;
+    width: 90% !important;
+    padding-left: 40px;
+  }
+  .need-help-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px !important;
+  }
+ .need-help{
+    background-color: #ffff !important;
+    width: 60% !important;
+    margin-top: 25px;
+    padding: 10px;
+    border-radius: 15px;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    
+ }
+ .slick-dots li button:before {
+    color: white !important;
+  }
+  .slick-arrow,
+.slick-prev {
+  display: none !important;
+}
+.slick-dots {
+    position: absolute;
+    bottom: 20px !important;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+}
+ .needhelp-left{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+
+ }
+ .needhelp-left h3{
+    margin: 0px;
+    padding-bottom: 5px;
+ }
+ .needhelp-left p{
+    color: #7C7F82;
+    font-size: 10px;
+ }
+ .contactttus{
+    display: flex;
+    justify-content: center;
+    align-items: center
+ }
+ .contactttus button{
+    background-color: #F9C623;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 5px;
+    border: none;
+ }
+
+  
+  .paper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: #F2F2F2 !important;
+    box-shadow: none !important;
+  }
+  
+  .form {
+    width: 100%;
+    margin-top: 8px;
+  }
+  
+  .custom-textfield .MuiCheckbox-root,
+  .custom-username-textfield .MuiCheckbox-root {
+    color: #fff;
+    background-color: #f0ad4e;
+    border-color: #f0ad4e;
+  }
+  
+  .custom-textfield .MuiCheckbox-input:checked ~ .custom-textfield .MuiCheckbox-label::before,
+  .custom-username-textfield .MuiCheckbox-input:checked ~ .custom-username-textfield .MuiCheckbox-label::before {
+    color: #000;
+  }
+
+  .stepper-logo{
+  
+    padding-left: 30PX;
+    height: 70px ;
+    padding-top: 10px !important;
+ 
+  }
+  .stepper-logo img{
+    height: 80% !important;
+  }
+  .stepper-header{
+    background-color: #15101F !important;
+    display: flex;
+    justify-content: space-between;
+    align-items:  center;
+  }
+
+
+@media (max-width: 767px) {
+    .root {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .image {
+      padding: 20px;
+      padding-top: 60px !important;
+    }
+  
+    .image img {
+      padding-left: 0;
+      height: 50% !important;
+      width: 100% !important
+    }
+  
+    .need-help {
+      width: 100% !important;
+    }
+  
+    .needhelp-left {
+      padding: 10px;
+    }
+  
+    .stepper-logo {
+      padding-left: 10px;
+      height: 50px;
+      padding-top: 5px !important;
+      padding-bottom: 5px !important;
+    }
+  
+    .stepper-logo img {
+      height: 60% !important;
+    }
+  }
+  
+
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .root {
+      flex-direction: row;
+      align-items: stretch;
+    }
+  
+    .image {
+      width: 40%;
+      padding: 20px;
+      padding-top: 60px !important;
+    }
+  
+    .image img {
+      padding-left: 40px;
+      height: 70% !important;
+      width: 80% !important;
+    }
+  
+    .need-help {
+      width: 70% !important;
+      /* display: flex !important;
+      flex-direction: column !important;
+      align-items: center;
+      justify-content: center; */
+    }
+    .needhelp-left{
+        padding-left: 5px !important;
+        padding-right: 0px !important;
+    }
+    .paper {
+      width: 60%;
+    }
+  }
+  
+ 
+  @media (min-width: 1024px) {
+    .root {
+      flex-direction: row;
+      align-items: stretch;
+    }
+  
+    .image {
+      width: 50%;
+      padding: 40px;
+      padding-top: 60px !important;
+    }
+  
+    .image img {
+      padding-left: 40px;
+      height: 70% !important;
+      width: 90% !important;
+    }
+  
+    .paper {
+      width: 50%;
+    }
+  }

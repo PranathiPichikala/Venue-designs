@@ -1,25 +1,42 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
+import Header from './Components/Header'; 
+import Home from './Pages/Home';
+import Company from './Pages/Company';
 
-function App() {
+
+import Footer from './Components/Footer'; 
+import LoginPage from './Pages/LoginPage'
+import SignUpPage from './Pages/SignUpPage';
+
+const App = () => {
+  const [showSignUpPage, setShowSignUpPage] = useState(false);
+
+  const handleRegisterClick = () => {
+    setShowSignUpPage(true);
+  };
+
+  const handleSignUpPageClose = () => {
+    setShowSignUpPage(false);
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+     {/* <Header />
+      <Home/>
+      <Footer/> */}
+      {/* <Company/>  */}
+      {showSignUpPage ? (
+        <SignUpPage onClose={handleSignUpPageClose} />
+      ) : (
+        <LoginPage onRegisterClick={handleRegisterClick} />
+      )}
+    </>
   );
-}
+};
 
 export default App;
+      
+
+
+
+
